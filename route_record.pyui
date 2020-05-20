@@ -1,0 +1,313 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{32, 45}, {256, 256}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "flex" : "LRTB",
+          "border_width" : 2,
+          "frame" : "{{110, 190}, {100, 100}}",
+          "class" : "ImageView",
+          "uuid" : "58EEE654-E5EC-49EB-87CA-3440C2A4FD40",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.349020,0.592157,0.627451,1.000000)",
+          "name" : "MapViewREC",
+          "image_name" : "iob:ios7_world_256"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{-26, -11}, {360, 60}}",
+        "class" : "View",
+        "attributes" : {
+          "flex" : "W",
+          "border_width" : 2,
+          "frame" : "{{110, 190}, {100, 100}}",
+          "border_color" : "RGBA(0.349020,0.592157,0.627451,1.000000)",
+          "class" : "View",
+          "uuid" : "70103F14-3D79-4634-8B2F-18A42D38258C",
+          "corner_radius" : 1,
+          "background_color" : "RGBA(0.762346,1.017311,1.055556,1.000000)",
+          "name" : "header"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{60, 0}, {210, 43}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "5E1A873A-414C-4663-BADA-109583A8AFD7",
+          "font_size" : 20,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "editable" : false,
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "text_color" : "RGBA(0.177237,0.300705,0.318627,1.000000)",
+          "text" : "Route Record",
+          "font_name" : "Verdana-Bold",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "textview1",
+          "flex" : "W"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{60, 398}, {210, 37}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "5D22BB7B-C03A-4E03-9CA9-5E853B4D6DE7",
+          "image_name" : "iob:stop_32",
+          "font_size" : 20,
+          "corner_radius" : 8,
+          "background_color" : "RGBA(1.000000,0.109804,0.109804,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "border_width" : 3,
+          "title" : "",
+          "action" : "endRouteRecord",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "EndRouteRecord",
+          "flex" : "WLRT"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 57}, {48, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "RT",
+          "name" : "PaceIconREC",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.349020,0.592157,0.627451,1.000000)",
+          "title" : "Button",
+          "uuid" : "F1D49CA0-56DD-4C08-9E4B-DA33E2464246",
+          "class" : "Button",
+          "font_size" : 15,
+          "image_name" : "iob:ios7_speedometer_256"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 113}, {48, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "RT",
+          "font_size" : 15,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.349020,0.592157,0.627451,1.000000)",
+          "title" : "Button",
+          "uuid" : "46E9F50E-7F6E-4DA6-94A4-6ADB1A076A5F",
+          "class" : "Button",
+          "name" : "DistanceIconREC",
+          "image_name" : "iob:map_256"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 169}, {48, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "RT",
+          "font_size" : 15,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.349020,0.592157,0.627451,1.000000)",
+          "title" : "Button",
+          "uuid" : "3F8BDA08-96E1-4BB2-8126-4115E05BCF76",
+          "class" : "Button",
+          "name" : "TimeIconREC",
+          "image_name" : "iob:clock_256"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{62, 169}, {136, 48}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "179DC3B5-04B3-408A-9BB5-9DEA8D7EAF28",
+          "font_size" : 20,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "editable" : false,
+          "alignment" : "right",
+          "autocorrection_type" : "default",
+          "text" : "0:00:00.00",
+          "text_color" : "RGBA(0.349020,0.592157,0.627451,1.000000)",
+          "font_name" : "Verdana-Bold",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "TimeREC",
+          "flex" : "RT"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{62, 113}, {136, 48}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "66FD2913-E2B5-4B19-A73B-FC700503D918",
+          "font_size" : 20,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "tint_color" : "RGBA(0.349020,0.592157,0.627451,1.000000)",
+          "editable" : false,
+          "alignment" : "right",
+          "autocorrection_type" : "default",
+          "text" : "999,999 m",
+          "text_color" : "RGBA(0.349020,0.592157,0.627451,1.000000)",
+          "font_name" : "Verdana-Bold",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "DistanceREC",
+          "flex" : "RT"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{62, 57}, {136, 48}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "F76F26F7-D188-4ED6-A6A2-C1CB170327D0",
+          "font_size" : 20,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "editable" : false,
+          "alignment" : "right",
+          "autocorrection_type" : "default",
+          "text" : "9,999 m\/s",
+          "text_color" : "RGBA(0.349020,0.592157,0.627451,1.000000)",
+          "font_name" : "Verdana-Bold",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "PaceREC",
+          "flex" : "RT"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 225}, {48, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "RT",
+          "font_size" : 15,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.349020,0.592157,0.627451,1.000000)",
+          "title" : "Button",
+          "uuid" : "BE4FCBDA-515F-4CF5-9228-20F9D8049B49",
+          "class" : "Button",
+          "name" : "Info1IconREC",
+          "image_name" : "iob:ios7_help_256"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{62, 225}, {136, 48}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "BF070C9B-4A0F-43C0-9EFF-FB1B4247F660",
+          "font_size" : 20,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "editable" : false,
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "text" : "Info 1 Dis",
+          "text_color" : "RGBA(0.349020,0.592157,0.627451,1.000000)",
+          "font_name" : "Verdana-Bold",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "Info1REC",
+          "flex" : "RT"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 281}, {48, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "RT",
+          "image_name" : "iob:ios7_help_256",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.349020,0.592157,0.627451,1.000000)",
+          "title" : "Button",
+          "uuid" : "A443680E-5E51-4160-91AA-673E7DA5B757",
+          "class" : "Button",
+          "font_size" : 15,
+          "name" : "Info2IconREC"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{62, 281}, {136, 48}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "3FE8BDAF-DEF7-4AA5-AEE7-34EFC765F9B5",
+          "font_size" : 20,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "editable" : false,
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "text" : "Info 2 Dis",
+          "text_color" : "RGBA(0.349020,0.592157,0.627451,1.000000)",
+          "font_name" : "Verdana-Bold",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "Info2REC",
+          "flex" : "RT"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "custom_class" : "",
+      "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(0.500000,1.000000,0.934783,1.000000)",
+      "name" : ""
+    },
+    "selected" : false
+  }
+]
